@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+    <title>Yarrgh!</title>
+    <script src="Scripts/angular.js"></script>
+    <script src="app/app.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body ng-controller="pirateController">
+    <div>
+        <h2>How Many Pirates There Be?</h2>
+    </div>
+    <div class="row">
+        <div class="col-xs-3">
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" ng-click="getBooty()">Get the Booty!</button>
+                </span>
+                <input type="text" class="form-control" ng-model="pirateCount">
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-xs-3">
+                <span ng-show="showBooty">{{booty}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="spinner">
+        <img src="img/spinner.gif" ng-show="loading" width="45" height="45" />
+    </div>
+</body>
+</html>

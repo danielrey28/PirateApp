@@ -1,0 +1,6 @@
+c:\users\epyon\documents\visual studio 2013\Projects\Pirates\Pirates\bin\Pirates.dll.config
+c:\users\epyon\documents\visual studio 2013\Projects\Pirates\Pirates\bin\Pirates.dll
+c:\users\epyon\documents\visual studio 2013\Projects\Pirates\Pirates\bin\Pirates.pdb
+c:\users\epyon\documents\visual studio 2013\Projects\Pirates\Pirates\obj\Debug\Pirates.csprojResolveAssemblyReference.cache
+c:\users\epyon\documents\visual studio 2013\Projects\Pirates\Pirates\obj\Debug\Pirates.dll
+c:\users\epyon\documents\visual studio 2013\Projects\Pirates\Pirates\obj\Debug\Pirates.pdb
